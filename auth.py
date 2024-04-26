@@ -1,1 +1,1 @@
-print("Auth2")
+print("Auth1")
