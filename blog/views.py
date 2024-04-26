@@ -21,7 +21,7 @@ def post_share(request, post_id):
 
 def post_list(request):
     posts = Post.published.all()
-
+    print('asdff')
     paginator = Paginator(posts, 3)
     page_number = request.GET.get('page', 1)
     try:
